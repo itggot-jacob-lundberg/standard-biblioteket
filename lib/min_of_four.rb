@@ -1,3 +1,16 @@
+# Public: Receive the smallest number out of 4.
+#
+# number1 - The first Integer to compare.
+# number2 - The second Integer to compare.
+# number3 - The third Integer to compare.
+# number4 - The fourth Integer to compare.
+#
+# Examples
+#
+#   min_of_four(1, 2, 3, 4)
+#   # => 1
+#
+# Returns the smallest Integer.
 def min_of_four(number1, number2, number3, number4)
     if number1 < number2
         min1 = number1
